@@ -32,7 +32,7 @@ const layout = document.querySelector(".wrapper")
 for (let key in img) {
     layout.innerHTML +=
         `
-        <div class="off">
+        <div class="box off">
         <img class="image" src="img/${img[key].url_img}" alt="">
         <div class="title">${img[key].titolo}</div>
         <div class="description">${img[key].descrizione}</div>
